@@ -28,3 +28,38 @@
 - scallable
 - good for I/O intensive apps
 - **bad** for CPU intensive apps.
+
+### files
+
+use `readStream and writeStream` and use chunks instead.
+
+use `pipe` for writing from f1 to f2.
+
+### Create package.json file - hold metatdata for our project
+ in cmd: npm init, default is current
+
+ description
+
+ entrypoint:
+
+### Get modules
+
+- npmjson.com : For packages.
+- `npm i lodash`
+- `npm uninstall lodash`
+
+### Semantic Versioning
+
+- major.minor.patch
+- `^` - major.x.x
+- `~` - major.minor.x
+- _nothing_ - mojor.minor.x
+
+### Express server
+
+- queries are optional
+- just use `res.send(message)`
+- access parameters with `req.params.parameterName`
+#### Staic files using Express:
+
+- 
